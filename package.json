@@ -1,0 +1,16 @@
+{
+  "name": "helper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "helper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-detect": "^0.2.22",
+    "cryptowrapper": "git+https://github.com/rickyhadi/cryptowrapper.git",
+    "rediswrapper": "git+https://github.com/rickyhadi/rediswrapper.git"
+  }
+}
