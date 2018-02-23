@@ -1,6 +1,6 @@
-var detectBrowser = require('browser-detect');
-
-function helper(appConfig){
+function helper(){
+    var detectBrowser = require('browser-detect');
+    var appConfig = require('appconfig');
 	var redis = require('rediswrapper')(appConfig.App.Redis);
 	var crypto = require('cryptowrapper')(appConfig.App.Crypto);
     

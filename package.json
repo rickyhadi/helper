@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "appconfig": "git+https://github.com/rickyhadi/appconfig.git",
     "browser-detect": "^0.2.22",
     "cryptowrapper": "git+https://github.com/rickyhadi/cryptowrapper.git",
     "rediswrapper": "git+https://github.com/rickyhadi/rediswrapper.git"
